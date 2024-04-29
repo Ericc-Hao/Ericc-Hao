@@ -11,7 +11,7 @@
 
 <div align="center" style="display: flex; justify-content: space-between; clear: both;">
   <img src="https://github.com/Ericc-Hao/Ericc-Hao/assets/80863968/438320d4-4eb8-4c3c-8927-4238dd621676" alt="jump-corgi" style="width: 50%;">
-  <img src="https://komarev.com/ghpvc/?username=Ericc-Hao&label=Profile%20views&color=0e75b6&style=flat" alt="profile views">
+  <img src="https://komarev.com/ghpvc/?username=Ericc-Hao&label=Profile%20views&color=9370db&style=flat" alt="profile views">
   <img src="https://github.com/Ericc-Hao/Ericc-Hao/assets/80863968/457618a3-c63f-4619-afab-0a4129f045ec" alt="corgi-flip" style="width: 50%;">
 </div>
 
