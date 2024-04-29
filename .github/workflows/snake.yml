@@ -1,0 +1,27 @@
+name: Generate Snake Gif
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'
+
+jobs:
+  generate-snake-game:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+      
+    - name: Generate snake game
+      uses: Platane/snk@v3
+      with:
+        github_user_name: ${{ github.repository_owner }}
+        outputs: |
+          dist/github-snake.svg
+          dist/github-snake-dark.svg?palette=github-dark
+          dist/ocean.gif?color_snake=purple&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: snake-gif-files
+        path: dist/*
