@@ -53,3 +53,7 @@
 <p align="center">
   <a href="[https://www.linkedin.com/in/chenruihao/]"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
+
+![bichon-nice](https://github.com/Ericc-Hao/Ericc-Hao/assets/80863968/7f1bb786-588f-4ac6-9941-c02812d03c32)
+
+
